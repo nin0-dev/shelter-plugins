@@ -17,9 +17,9 @@
   };
   var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-  // plugins/hello-world/index.jsx
-  var hello_world_exports = {};
-  __export(hello_world_exports, {
+  // plugins/avast/index.jsx
+  var avast_exports = {};
+  __export(avast_exports, {
     onLoad: () => onLoad,
     onUnload: () => onUnload
   });
@@ -42,5 +42,5 @@
   function onUnload() {
     alert("ALERT: Avast for Shelter is being disabled. If this was not initiated by you, go to User Settings > Shelter to enable the Avast plugin.");
   }
-  return __toCommonJS(hello_world_exports);
+  return __toCommonJS(avast_exports);
 })();

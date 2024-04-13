@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
-  "author": "Your name here",
-  "description": "An example shelter plugin"
+  "name": "Avast",
+  "author": "nin0dev",
+  "description": "Adds Avast Antivirus Free integration to Shelter"
 }

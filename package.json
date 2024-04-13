@@ -4,5 +4,10 @@
     "@uwu/shelter-defs": "^1.1.0"
   },
   "type": "module",
-  "workspaces": ["plugins/*"]
+  "workspaces": [
+    "plugins/*"
+  ],
+  "dependencies": {
+    "eslint": "^9.0.0"
+  }
 }

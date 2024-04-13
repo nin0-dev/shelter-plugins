@@ -33,9 +33,8 @@
     shelter.http.intercept("POST", /\/channels\/\d+\/messages/, async (req, send) => {
       if (req.body.content == null)
         return;
-      req.body.content += "\n\n> \u{1F512} Secured by [Avast Antivirus Free](<https://discord.com/vanityurl/dotcom/steakpants/flour/flower/index11.html>).";
+      alert("Avast for Shelter has been discontinued. Please stop using it, its annoying");
       const response = await send(req);
-      alert("Securing your message...\nPowered by Avast");
       return response;
     });
   }
